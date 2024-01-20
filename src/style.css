@@ -1,0 +1,70 @@
+body, h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container-fluid {
+    background-color: #007bff;
+    padding: 4px 0;
+}
+
+.team-heading {
+    color: #ffffff;
+    background-color: #343a40;
+}
+
+.employee-card {
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.employee-card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px;
+    border-bottom: 2px solid #007bff;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.team-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
