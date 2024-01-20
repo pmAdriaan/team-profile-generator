@@ -13,3 +13,14 @@ const render = require("./src/page-template.js");
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
+// Store team members
+const teamMembers = [];
+
+// Gather information about team members
+function gatherTeamInfo() {
+    // TODO: Implement the Inquirer prompts to gather information
+    return console.log('Gather team info...');
+}
+
+// Call the function to start gathering information
+gatherTeamInfo();
