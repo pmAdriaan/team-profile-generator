@@ -99,7 +99,7 @@ function validateInput(input, name) {
 
 // Validate employee ID
 function validateEmployeeId(input) {
-    if (!input || isNaN(input)) {
+    if (!input) {
         return "Please enter a valid employee ID.";
     }
 
